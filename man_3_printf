@@ -1,0 +1,20 @@
+.TH "man" 2 "17 May 2022" 0.32 "_printf() man page"
+.SH NAME
+_printf -- formatted output
+.SH SYNOPSIS
+_printf format [arguments, ...]
+.SH DESCRIPTION
+Our custom _printf utility formats and prints its arguments using the format string.
+The format string is a character string which contains specifiers and flags
+_printf parses the format string and replaces specifiers with variadic arguments.
+.SH RETURN VALUE
+The _printf utility returns the number of bytes written on success, and -1 on failure.
+.SH SEE ALSO
+.I 
+builtin(1), echo(1), sh(1), printf(3)
+.SH BUGS
+No known bugs, does not implement all qualities of stdio printf, however.
+.SH IMPROVEMENTS
+Implement width, percision, length specifiers for integers, and the other flags '-' & '0'
+.SH AUTHOR
+Mark Agugo & Mbali Sithole
