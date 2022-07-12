@@ -1,4 +1,4 @@
-.TH "man" 2 "11 June 2022" 0.32 "_printf() man page"
+.TH "man" 2 "11 July 2022" 0.32 "_printf() man page"
 .SH NAME
 _printf -- formatted output
 .SH SYNOPSIS
